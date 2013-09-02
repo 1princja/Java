@@ -1,0 +1,47 @@
+list 	
+	program begins
+		read data from disk(file), store in memory
+	program ends
+		write/overwrite disk(file) with data manipulated in memory
+
+Problem
+
+Write a program to keep track of business contacts.
+Specification
+
+1    Create a BusinessContactclass with the following fields:
+        firstName:String
+        lastName:String
+        phoneNumber:String
+        emailAddress:String
+        company:String
+2    Use regular expressions to valid the format for phoneNumber and emailAddress.
+3    Store the records in memory in an ArrayList.
+4    Store the records on disk in the binary file contacts.ser.
+5    Automatically read the records from disk into memory when the program runs.
+6    Automatically write the records to disk when the program ends.
+7    Run the program from the following menu:
+        Add
+        Delete
+        View Contact
+        Display Contact List
+8    For 10 points extra credit, create a GUI for the program.
+
+	Comments, indentation, placement of {} not per style guide.
+	
+	
+5 pts
+BusinessContact class created as specified.
+
+5 pts
+Regular expressions used to validate email address and phone number.
+		
+5 pts
+Records stored in an ArrayList
+	
+5 pts
+Records automatically read when program begins.
+	
+5 pts
+Records written automatically to contacts.ser when program ends.
+

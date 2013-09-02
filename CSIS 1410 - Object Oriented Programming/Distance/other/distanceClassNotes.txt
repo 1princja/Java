@@ -1,0 +1,31 @@
+Distance d3 = d1.add(d2)
+	public Distance add(Distance d);
+	{
+		int totalIn = this.feet * 12 + this.inches + d.feet * 12 + d.inches;
+		int ft = totalIn/12 
+		int in = totalIn%12 (mod 12)
+		return new Distance(ft, in);
+	}
+	
+	if negative distance return message "distance is negative" or something similar.
+	
+	due 6 feb
+	
+	 Assignment 03 - Distance Class
+Problem
+
+Design and implement a Distance class to keep track of a linear distance in feet and inches.
+Specifications
+
+    Include the following fields:
+        feet:Integer
+        inches:Integer
+    Create both a default and a parametrized constructor
+    Implement the following methods:
+        Accessor and mutator methods for each field
+        add(d:Distance):Distance
+        sub(d:Distance):Distance
+        equals(obj:Object):Boolean
+        hashCode():Integer
+        toString():String
+    Create a test application to demonstrate the capabilities of the Distance class

@@ -1,0 +1,10 @@
+enum Status
+{WON,
+LOST,
+CONTINUE
+}
+
+Status gameStatus;
+gameStatus = Status.WON;
+
+ordinality, listing a constant
